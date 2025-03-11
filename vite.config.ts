@@ -8,7 +8,7 @@ import checker from 'vite-plugin-checker';
 export default defineConfig({
   plugins: [
     checker({
-      typescript: {
+      typescript: {  //should be vueTsc for Vue 3 TS
         tsconfigPath: './tsconfig.app.json',
       },
     }),
